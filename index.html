@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Djsatvik</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body style="background: rgb(0, 0, 0);">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top" style="background:#fff;">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html" style="text-decoration: none;color:#000;">Dj Satvik</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html" style="margin-left: 800px;color:#000;">Home</a></li>
+                <li><a href="#featuredevents" style="color:#000;">Featured Events</a></li>
+                <li class="dropdown"><a class="dropdown-arrow-top" data-toggle="dropdown" href="shows.html" style="color:#000;">Shows<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="top20.html">Top 20 of the Week</a></li>
+                        <li><a href="fa.html">Featured Artist</a></li>
+                        <li><a href="interview.html">Interviews</a></li>
+                    </ul>
+                </li>
+                <li><a href="#upcomingevents" style="color:#000;">Upcoming Events</a></li>
+                <li><a href="#contact" style="color:#000;">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6" style="margin-top: 100px;">
+                <h2 style="font-size: 80px;font-weight:bold;color:#F7EC09;">DJ Satvik</h2>
+                <h2 style="font-size: 80px;font-weight:bold;color:#F7EC09;">Music Fest</h2>
+                <p style="margin-left: 20px;color:#F7EC09;font-size:25px;">Events every night, join with us!</p>
+                <br>
+                <button type="button" data-toggle="modal" data-target="#myModal" style="margin-left: 100px;margin-top: 30px;">JOIN US</button>
+                <!-- Modal -->
+                <div class="modal fade" id="myModal" role="dialog">
+                    <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title" style="margin-left:225px;">GET OFFERS</h4>
+                            </div>
+                            <div class="modal-body">
+                                <form action='offers.html' method="post" class='subscribe-form' style="margin-left: 140px;">
+                                    <input name='uri' type='hidden' value='ArlinaDesign' /><input name='loc' type='hidden' value='en_US' /><input autocomplete='off' class='subscribe-css-email-field' name='email' placeholder='Enter your Email' title="please email"
+                                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required />
+                                    <button>Submit</button>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="images/head.jpg" alt="" style="margin-top: 50px;">
+            </div>
+        </div>
+    </div>
+    <section class="wrapper-full tab-container effectTab-header" id="style_2">
+        <div class="wrapper tab-item">
+            <div class="custom-row">
+                <div class="wrapper" align="center">
+                    <h1 class="ti title" style="color: white;" id="featuredevents">Featured Events</h1>
+                </div>
+                <div class="column-12 column-sm-12 tab">
+                    <div class="custom-row">
+                        <div class="column-4 column-md-6 column-xs-12 column-sm-6 box-tab">
+                            <div class="effect effect-two">
+                                <a href="corporateparty.html"><img src="images/corporate.jpg" class="img-fluid"></a>
+                                <div class="tab-text">
+                                    <a href="corporateparty.html">
+                                        <h2>Info</h2>
+                                    </a>
+                                    <p class="icon-links"><a href="corporateparty.html"><i class="fa fa-facebook-official"></i></a> <a href="corporateparty.html"><i class="fa fa-twitter-square"></i></a> <a href="corporateparty.html"><i class="fa fa-youtube-square"></i></a></p>
+                                    <a href="corporateparty.html">
+                                        <p class="description">Corporate Party</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column-8 hide-md column-xs-12 hide-xs hide-sm box-tab">
+                            <div class="effect grid-width8 effect-two">
+                                <a href="houseparty.html"><img src="images/houseparty.jpg" class="img-fluid"></a>
+                                <div class="tab-text">
+                                    <a href="houseparty.html">
+                                        <h2>Info</h2>
+                                    </a>
+                                    <p class="icon-links"><a href="houseparty.html"><i class="fa fa-facebook-official"></i></a> <a href="houseparty.html"><i class="fa fa-twitter-square"></i></a> <a href="houseparty.html"><i class="fa fa-youtube-square"></i></a></p>
+                                    <a href="houseparty.html">
+                                        <p class="description col6">House Party</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column-6 hide-md hide-xs hide-sm box-tab">
+                            <div class="effect grid-width6 effect-two">
+                                <a href="weddingparty.html"><img src="images/weddingparty.jpg" class="img-fluid"></a>
+                                <div class="tab-text">
+                                    <a href="weddingparty.html">
+                                        <h2>Info</h2>
+                                    </a>
+                                    <p class="icon-links"><a href="weddingparty.html"><i class="fa fa-facebook-official"></i></a> <a href="weddingparty.html"><i class="fa fa-twitter-square"></i></a> <a href="weddingparty.html"><i class="fa fa-youtube-square"></i></a></p>
+                                    <a href="weddingparty.html">
+                                        <p class="description col6">Wedding Party</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column-6 hide-md hide-xs hide-sm box-tab">
+                            <div class="effect grid-width6 effect-two">
+                                <a href="christmasparty.html"><img src="images/christmas-party-.webp" class="img-fluid"></a>
+                                <div class="tab-text">
+                                    <a href="christmasparty.html">
+                                        <h2>Info</h2>
+                                    </a>
+                                    <p class="icon-links"><a href="christmasparty.html"><i class="fa fa-facebook-official"></i></a> <a href="christmasparty.html"><i class="fa fa-twitter-square"></i></a> <a href="christmasparty.html"><i class="fa fa-youtube-square"></i></a></p>
+                                    <a href="christmasparty.html">
+                                        <p class="description col6">Christmas Party</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="wrapper-full tab-container effectTab-header" id="style_11">
+        <div class="wrapper tab-item">
+            <div class="custom-row">
+                <div class="wrapper " align="center">
+                    <h1 class="ti title" style="color:#fff;" id="upcomingevents">Upcoming Events</h1>
+                </div>
+                <div class="column-12 column-xs-12 tab">
+                    <div class="custom-row">
+                        <div class="column-4 column-xs-12 column-sm-6 column-md-6 box-tab">
+                            <div class="effect effect-eleven">
+                                <a href="martingarrix.html"><img src="images/martin-garrix.jpg" class="img-fluid"></a>
+                                <div class="tab-text">
+                                    <a href="martingarrix.html">
+                                        <h2>Martin Garrix</h2>
+                                    </a>
+                                    <a href="martingarrix.html">
+                                        <p>Info</p>
+                                    </a>
+                                    <div class="icons-block"> <a href="martingarrix.html" class="social-icon-1"><i class="fa fa-facebook-official"></i></a> <a href="martingarrix.html" class="social-icon-2"><i class="fa fa-twitter-square"></i></a>
+                                        <a href="martingarrix.html" class="social-icon-3"><i class="fa fa-youtube-square"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column-4 column-sm-6 column-md-6 hide-xs box-tab">
+                            <div class="effect effect-eleven">
+                                <a href="djsnake.html"><img src="images/dj-snake.jpg" class="img-fluid"></a>
+                                <div class="tab-text">
+                                    <a href="djsnake.html">
+                                        <h2>DJ Snake</h2>
+                                    </a>
+                                    <a href="djsnake.html">
+                                        <p>Info</p>
+                                    </a>
+                                    <div class="icons-block"> <a href="djsnake.html" class="social-icon-1"><i class="fa fa-facebook-official"></i></a> <a href="djsnake.html" class="social-icon-2"><i class="fa fa-twitter-square"></i></a>
+                                        <a href="djsnake.html" class="social-icon-3"><i class="fa fa-youtube-square"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column-4 hide-xs hide-sm hide-md box-tab">
+                            <div class="effect effect-eleven">
+                                <a href="zouk.html"><img src="images/Zouk-.jpg" class="img-fluid"></a>
+                                <div class="tab-text">
+                                    <a href="zouk.html">
+                                        <h2>Dj Zouk</h2>
+                                    </a>
+                                    <a href="zouk.html">
+                                        <p>Info</p>
+                                    </a>
+                                    <div class="icons-block"> <a href="zouk.html" class="social-icon-1"><i class="fa fa-facebook-official"></i></a> <a href="zouk.html" class="social-icon-2"><i class="fa fa-twitter-square"></i></a> <a href="zouk.html" class="social-icon-3"><i class="fa fa-youtube-square"></i></a>                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="images/images.jpg" alt="">
+            </div>
+            <div class="col-md-6">
+                <h2 style="text-align: center;color:#fff;">We Love Music</h2>
+                <p style="color:#fff;margin-left:175px;font-size:20px;margin-top:20px;">Join with us today</p>
+                <p style="color: #fff;margin-left:175px;">ENJOY! the weekends by listening to such wonderful songs sung by such wonderful singers.</p>
+                <button type="button" data-toggle="modal" data-target="#myModal" style="margin-left: 175px;margin-top: 30px;">JOIN US</button>
+                <!-- Modal -->
+                <div class="modal fade" id="myModal" role="dialog">
+                    <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title" style="margin-left:225px;">GET OFFERS</h4>
+                            </div>
+                            <div class="modal-body">
+                                <form action='offers.html' method="post" class='subscribe-form' style="margin-left: 140px;">
+                                    <input name='uri' type='hidden' value='ArlinaDesign' /><input name='loc' type='hidden' value='en_US' /><input autocomplete='off' class='subscribe-css-email-field' name='email' placeholder='Enter your Email' title="please email"
+                                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required />
+                                    <input class='submit' title='' type='submit' value='submit' />
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 style="color:#fff;" id="about">ABOUT US</h2>
+                    <p style="color:#fff;">We manage the schedule of some concerts as well as provide booking of all types of concerts.</p>
+                    <h2 style="color:#fff;margin-top:80px;">NAVIGATIONS</h2>
+                    <a href="index.html" style="text-decoration: none;">
+                        <p style="color:#fff;">Home</p>
+                    </a>
+                    <a href="#featuredevents" style="text-decoration: none;">
+                        <p style="color:#fff;">Featured Events</p>
+                    </a>
+                    <a href="#upcomingevents" style="text-decoration: none;">
+                        <p style="color:#fff;">Upcoming Events</p>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <h2 style="color:#fff;margin-left: 90px;" id="contact">FOLLOW US</h2>
+                    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+
+
+                    <footer>
+                        <div class="rounded-social-buttons">
+                            <a class="social-button facebook" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a class="social-button twitter" href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a class="social-button linkedin" href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a class="social-button instagram" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </footer>
+                </div>
+                <div class="col-md-4">
+                    <h2 style="color:#fff;margin-left: 50px;">WATCH VIDEO</h2>
+                    <video width="320" height="240" controls>
+                        <source src="images/djsnake.mp4" type="video/mp4">
+                      </video>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p class="cp-text" style="text-align: center;margin-top:40px;">
+            © Copyright 2022 DjSatvik. All rights reserved.
+        </p>
+    </footer>
+</body>
+
+</html>
